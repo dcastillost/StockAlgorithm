@@ -34,10 +34,14 @@ def PrintBuyHoldMetrics(iteration_count, bh_cash, bh_trades, bh_avg_stock_profit
 
 def RunTest(start_date="2007-01-01", end_date="2015-01-01", iterations=10):
     # Can choose which market to test on.
-    NYSE = "../Data/NYSE.txt"
-    SPY = "../Data/SPY.txt"
-    PENNY = "../Data/PENNY.txt"  # Data is biased for penny stock info.
-    USA = "../Data/USA.txt"
+    # NYSE = "../Data/NYSE.txt"
+    # SPY = "../Data/SPY.txt"
+    # PENNY = "../Data/PENNY.txt"  # Data is biased for penny stock info.
+    # USA = "../Data/USA.txt"
+    NYSE = "StockAlgorithm/Data/NYSE.txt"
+    SPY = "StockAlgorithm/Data/SPY.txt"
+    PENNY = "StockAlgorithm/Data/PENNY.txt"  # Data is biased for penny stock info.
+    USA = "StockAlgorithm/Data/USA.txt"
 
     API_KEY = input("Paste your Alpha Vantage API key: ")
 
